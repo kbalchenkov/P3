@@ -22,7 +22,7 @@ Route::post('/display', function()
 
 	echo implode('<p>', $paragraphs);
 
-return View::make('lorem-ipsum');
+//return View::make('lorem-ipsum');
 	
 // var_dump($paragraphs);
 
