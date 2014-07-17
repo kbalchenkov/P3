@@ -15,7 +15,8 @@
 @yield('content')
 
 
-@yield('middle')
+
+
 
 
 
