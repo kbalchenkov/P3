@@ -48,20 +48,20 @@ Route::get('post-form', function()
 Route::post('/displays', function()
 {	
 
-require_once '/fzaninotto/faker/src/autoload.php';
+//require_once '/fzaninotto/faker/src/autoload.php';
 
 
 
- $data = Input::all();
- $howmanyusers = $data["numberofusers"];
- $faker = Faker\Factory::create();
- $i = 0;
+ //$data = Input::all();
+ //$howmanyusers = $data["numberofusers"];
+ //$faker = Faker\Factory::create();
+ //$i = 0;
 
-while($i < $howmanyusers){
+//while($i < $howmanyusers){
 	
-	echo $faker->name, "\n";
+	//echo $faker->name, "\n";
 	
-	$i++;
+	//$i++;
     //var_dump($howmanyusers);
 
 
@@ -70,7 +70,7 @@ while($i < $howmanyusers){
 	
 // var_dump($paragraphs);
 
-}
+//}
 
 });
 
